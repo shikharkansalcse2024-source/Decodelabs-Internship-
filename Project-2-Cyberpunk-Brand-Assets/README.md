@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Project 1 — AI-Generated Cyberpunk Brand Asset Kit
-=======
 # Project 2 — AI-Generated Cyberpunk Brand Asset Kit
->>>>>>> 6b895d55c5c9b58e11ab8b14a9c74e1f88849782
 
 > Cybersecurity Startup Rebranding using AI Image Generation and Advanced Prompt Engineering
 
