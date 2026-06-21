@@ -1,0 +1,61 @@
+ALL PROMPTS USED
+================
+
+ASSET 1 - LOGO CONCEPT:
+[A minimalist cybersecurity company logo concept, featuring a 
+geometric shield with a glowing circuit pattern inside, 
+cyberpunk aesthetic, neon blue and electric purple color palette, 
+dark navy background, chrome metallic edges, holographic glow 
+effect, clean professional design, ultra sharp, 4K, 
+square format 1:1, no text, no watermark]
+
+Negative: [Avoid cartoon style, warm colors, hand-drawn look, 
+sketchy lines, blurry edges, watermark, text, letters]
+
+ASSET 2 - HERO IMAGE:
+[A cinematic wide-angle hero image for a cybersecurity company 
+website, a lone hooded hacker figure standing in a vast dark 
+server room, surrounded by floating holographic shields and 
+glowing blue circuit patterns, volumetric neon blue and purple 
+lighting, reflective floor, dramatic rim lighting, 
+cyberpunk-corporate aesthetic, ultra realistic, 
+8K resolution, 16:9 aspect ratio, no text, no watermark]
+
+Negative: [Avoid warm lighting, daylight, nature backgrounds, 
+cartoon, low quality, blurry, crowded composition, 
+stock photo look, watermark]
+
+ASSET 3 - ICON 1 SHIELD:
+[A glowing cybersecurity shield icon, flat design, 
+neon blue and electric purple equal glow, dark navy 
+background, symmetric circuit pattern inside shield, 
+metallic chrome border, holographic effect, minimalist 
+professional design, sharp clean edges, perfectly square 
+1:1 composition, 4K, no text, no watermark]
+
+Negative: [Avoid cartoon, warm colors, hand-drawn, sketchy, 
+watermark, text, blurry, low quality, anime]
+
+ASSET 4 - ICON 2 LOCK:
+[A glowing cybersecurity padlock icon, same style as 
+a glowing cyberpunk shield icon, neon blue and electric 
+purple, dark navy background, chrome metallic border, 
+circuit pattern details, holographic glow effect, 
+minimalist flat design, sharp clean edges, perfectly 
+square 1:1 composition, 4K, no text, no watermark]
+
+Negative: [Avoid cartoon, warm colors, hand-drawn, sketchy,
+watermark, text, blurry, low quality, anime]
+
+ASSET 5 - ICON 3 EYE:
+[A glowing surveillance eye icon for a cybersecurity brand, 
+same style as a glowing cyberpunk shield icon, neon blue 
+and electric purple, dark navy background, chrome metallic 
+border, circuit pattern details, neon blue iris with circuit 
+pattern inside, holographic glow around edges, minimalist 
+flat design, perfectly square 1:1 composition, 4K, 
+no text, no watermark]
+
+Negative: [Avoid cartoon, warm colors, hand-drawn, sketchy,
+watermark, text, blurry, low quality, anime, 
+creepy, horror style]

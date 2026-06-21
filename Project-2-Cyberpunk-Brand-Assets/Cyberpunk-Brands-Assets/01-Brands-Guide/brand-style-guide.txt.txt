@@ -1,0 +1,24 @@
+CYBERPUNK BRAND STYLE GUIDE
+============================
+Company Type  : Cybersecurity Startup
+Aesthetic     : Cyberpunk-Corporate
+
+COLORS:
+Neon Blue     : #00f0ff
+Electric Purple: #9b00ff
+Dark Navy     : #0a0a2e
+Chrome Silver : #c0c0c0
+
+MOOD:
+Powerful, mysterious, futuristic, trustworthy
+
+LIGHTING:
+Neon rim lighting, volumetric glow, lens flares
+
+KEY ELEMENTS:
+Shields, locks, circuits, binary code,
+glowing eyes, hooded figures, servers
+
+AVOID:
+Warm colors, cartoons, nature, hand-drawn,
+childish, stock-photo feel, watermarks
