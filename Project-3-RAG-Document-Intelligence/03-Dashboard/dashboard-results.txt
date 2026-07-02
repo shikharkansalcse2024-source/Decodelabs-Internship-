@@ -1,0 +1,196 @@
+╔══════════════════════════════════════════════════════════════╗
+║            SUMMARY DASHBOARD — EXTRACTION RESULTS          ║
+║         RAG Document Intelligence — Project 3              ║
+╚══════════════════════════════════════════════════════════════╝
+
+Document  : Software Services Agreement (NSA-2024-0892)
+Tool Used : Claude Projects (claude.ai)
+Date      : June 2026
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CATEGORY 1 — RISKS (7 Found)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RISK 1: Early Termination Fee
+Section : Section 3.3 — Termination for Convenience
+Detail  : Client owes all fees earned to date PLUS 20%
+          of remaining contract value if they terminate
+          for convenience. On a $4.75M contract this
+          could be hundreds of thousands of dollars.
+Severity: HIGH
+
+RISK 2: Late Payment Interest & Service Suspension
+Section : Section 4.2 — Late Payment Penalty
+Detail  : Payments overdue 30+ days accrue 1.5%/month
+          (18% per annum). Overdue 60+ days = provider
+          can suspend ALL services with 10 days notice.
+Severity: HIGH
+
+RISK 3: Liability Cap — 12-Month Fee Ceiling
+Section : Section 9.1 — Liability Cap
+Detail  : Each party's total liability capped at fees
+          paid in last 12 months. Exceptions for gross
+          negligence, wilful misconduct, confidentiality
+          breaches.
+Severity: HIGH
+
+RISK 4: Data Breach — 48-Hour Notification Obligation
+Section : Section 6.3 — Data Breach Notification
+Detail  : Provider must notify client within 48 hours
+          of confirmed breach. Provider bears ALL
+          reasonable costs of notification and
+          remediation.
+Severity: HIGH
+
+RISK 5: No Consequential Damages Recovery
+Section : Section 9.2 — Exclusion of Consequential Damages
+Detail  : Neither party can recover lost profits, lost
+          business, or loss of data — except in cases of
+          gross negligence, wilful misconduct, or
+          confidentiality breach.
+Severity: MEDIUM
+
+RISK 6: Auto-Renewal Risk
+Section : Section 3.2 / Section 4.5
+Detail  : Agreement auto-renews for 1-year terms unless
+          90 days written notice given before expiry.
+          Missing window = locked in for another year
+          at potentially increased rates (up to 5% CPI).
+Severity: MEDIUM
+
+RISK 7: IP Ownership Conditional on Full Payment
+Section : Section 5.1 — Client Ownership
+Detail  : Custom deliverables only transfer ownership
+          to client upon full and timely payment.
+          Delayed payments could suspend IP transfer.
+Severity: MEDIUM
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CATEGORY 2 — IMPORTANT DATES (11 Found)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DATE 1 : January 15, 2024
+Section: Section 3.1 / Section 4.1
+Purpose: Contract Effective Date + Deposit due ($475,000)
+
+DATE 2 : April 30, 2024
+Section: Section 4.1
+Purpose: Phase 1 payment due ($712,500)
+         Triggered by Platform Alpha delivery
+
+DATE 3 : August 31, 2024
+Section: Section 4.1
+Purpose: Phase 2 payment due ($712,500)
+         Triggered by Beta testing completion
+
+DATE 4 : December 31, 2024
+Section: Section 4.1
+Purpose: Phase 3 Go-Live payment due ($950,000)
+         Triggered by production deployment
+
+DATE 5 : January 15, 2025
+Section: Section 4.1
+Purpose: Year 2 Annual Fee due ($950,000)
+
+DATE 6 : January 15, 2026
+Section: Section 4.1
+Purpose: Year 3 Annual Fee due ($950,000)
+
+DATE 7 : January 14, 2027
+Section: Section 3.1
+Purpose: Contract Expiry Date (end of 3-year term)
+
+DATE 8 : 90 days before expiry
+Section: Section 3.2 — Renewal
+Purpose: Non-renewal notice deadline
+         Must notify to prevent auto-renewal
+
+DATE 9 : 180 days notice
+Section: Section 3.3 — Termination for Convenience
+Purpose: Notice period required for convenience termination
+
+DATE 10: 30 days cure period
+Section: Section 3.4 — Termination for Cause
+Purpose: Time to fix material breach before termination
+
+DATE 11: 5 years post-termination
+Section: Section 7.2 — Duration of Confidentiality
+Purpose: Confidentiality obligations survive for 5 years
+         Trade secrets protected indefinitely
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CATEGORY 3 — STAKEHOLDERS (9 Found)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STAKEHOLDER 1: NexaCore Technologies Inc.
+Role   : Service Provider
+Section: Party Details / Recitals
+
+STAKEHOLDER 2: Meridian Global Partners LLC
+Role   : Client
+Section: Party Details / Recitals
+
+STAKEHOLDER 3: Jonathan R. Whitfield
+Role   : CEO, NexaCore (Signatory)
+Section: Signature Page
+
+STAKEHOLDER 4: Sarah K. Montgomery
+Role   : COO, Meridian (Signatory)
+Section: Signature Page
+
+STAKEHOLDER 5: Rachel P. Dunmore
+Role   : General Counsel, NexaCore (Witness)
+Section: Signature Page
+
+STAKEHOLDER 6: Marcus T. Belleview
+Role   : Senior Legal Counsel, Meridian (Witness)
+Section: Signature Page
+
+STAKEHOLDER 7: AWS / Microsoft Azure
+Role   : Cloud infrastructure subcontractors
+Section: Section 2.1
+
+STAKEHOLDER 8: Bloomberg / Salesforce / SAP
+Role   : Client's existing integrated systems
+Section: Section 2.1
+
+STAKEHOLDER 9: JAMS / AAA
+Role   : Dispute resolution bodies
+Section: Section 11.2 / Section 11.3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXECUTIVE SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NexaCore Technologies Inc. is engaged by Meridian Global
+Partners LLC to build and maintain a financial data
+management platform over three years for $4.75M, paid
+across six milestone-based installments from January 2024
+to January 2026.
+
+The client bears significant financial exposure: early
+termination carries a 20% fee on remaining value, late
+payments accrue 18% annual interest, and IP ownership only
+transfers upon full payment — making timely payment
+discipline critical.
+
+Disputes must follow a structured escalation path
+(negotiation to JAMS mediation to AAA arbitration in
+Delaware), and both parties carry a 5-year post-termination
+confidentiality obligation with auto-renewal risk if the
+90-day non-renewal window is missed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DASHBOARD STATS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total Risks Found        : 7 (4 HIGH, 3 MEDIUM)
+Total Dates Found        : 11
+Total Stakeholders Found : 9
+Citation Accuracy        : 100%
+Hallucination            : ZERO
+Time to Extract          : < 60 seconds
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Created: June 2026 | RAG Document Intelligence Project
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

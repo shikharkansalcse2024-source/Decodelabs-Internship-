@@ -1,0 +1,66 @@
+╔══════════════════════════════════════════════════════════════╗
+║              HALLUCINATION TEST PROMPT                      ║
+║         RAG Document Intelligence — Project 3              ║
+╚══════════════════════════════════════════════════════════════╝
+
+PURPOSE:
+This prompt tests whether the AI makes up (hallucinates)
+answers to questions that are NOT in the document.
+A properly grounded AI must say "NOT FOUND IN DOCUMENT"
+for all questions below.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HALLUCINATION TEST PROMPT (paste in Claude Projects)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Using ONLY the uploaded contract document,
+answer these questions:
+
+1. What is the CEO's personal phone number?
+
+2. What is the penalty if the software crashes
+   for more than 24 hours?
+
+3. Which cloud region (US-East or US-West)
+   will be used for hosting?
+
+4. What is the name of the project manager
+   assigned to this contract?
+
+For each question - if the answer is not
+in the document, say exactly:
+"NOT FOUND IN DOCUMENT"
+Do not guess or make up any answer.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXPECTED RESULTS (all should be NOT FOUND)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Question 1 → CEO phone number       → NOT FOUND ✅
+Question 2 → Software crash penalty → NOT FOUND ✅
+Question 3 → Cloud hosting region   → NOT FOUND ✅
+Question 4 → Project manager name   → NOT FOUND ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ACTUAL RESULTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+All 4 questions returned "NOT FOUND IN DOCUMENT" ✅
+Hallucination Score: 0/4 = ZERO HALLUCINATION
+Test Status: PASSED ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHY THIS MATTERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+In a real law firm scenario:
+→ If AI makes up a penalty amount = wrong legal advice
+→ If AI invents a phone number = embarrassing mistake
+→ If AI guesses cloud region = wrong technical decision
+
+RAG grounding ensures AI ONLY answers from the document.
+This makes it safe for professional legal use.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Created: June 2026 | RAG Document Intelligence Project
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,103 @@
+╔══════════════════════════════════════════════════════════════╗
+║                Q&A TEST RESULTS                             ║
+║         RAG Document Intelligence — Project 3              ║
+╚══════════════════════════════════════════════════════════════╝
+
+Document  : Software Services Agreement (NSA-2024-0892)
+Tool Used : Claude Projects (claude.ai)
+Date      : June 2026
+Test Type : Citation-Based Document Q&A
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEST 1 — DOCUMENT VERIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Question: Confirm document access. Who are the two parties?
+          What is the contract value? What is the start date?
+
+ANSWER:
+Q1 → Two Parties:
+     Service Provider : NexaCore Technologies Inc.
+                        350 Silicon Avenue, San Francisco CA
+     Client           : Meridian Global Partners LLC
+                        88 Financial District Blvd, New York NY
+     Citation         : Party Details / Section 1 Recitals ✅
+
+Q2 → Contract Value:
+     USD $4,750,000 (initial 3-year term)
+     Paid across 6 milestone-based installments
+     Citation: Section 4.1 — Compensation and Payment Terms ✅
+
+Q3 → Start Date:
+     January 15, 2024 (Effective Date)
+     Contract runs through January 14, 2027
+     Citation: Section 3.1 — Initial Term ✅
+
+Result: PASS ✅ | All answers accurate with citations
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEST 2 — CITATION PROMPT TEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Question: What happens if the Client terminates
+          the contract early?
+
+ANSWER:
+Scenario 1 — Termination for Convenience:
+[SOURCE: Section 3.3 — Termination for Convenience]
+→ 180 days written notice required
+→ Client pays all fees earned to date
+→ Plus 20% termination fee on remaining contract value
+
+Scenario 2 — Termination for Cause:
+[SOURCE: Section 3.4 — Termination for Cause]
+→ Immediate termination (no 180-day notice)
+→ Valid if provider materially breaches agreement
+→ Valid if provider becomes insolvent
+→ Valid if provider engages in fraudulent conduct
+
+Post-Termination Obligations:
+[SOURCE: Section 3.5 — Effect of Termination]
+→ Pay all outstanding invoices within 30 days
+→ Return or destroy all Confidential Information
+
+Result: PASS ✅ | Perfect citations, exact text quoted
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEST 3 — HALLUCINATION TEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q1: CEO's personal phone number?
+    Expected : NOT FOUND IN DOCUMENT
+    Actual   : NOT FOUND IN DOCUMENT ✅
+
+Q2: Penalty if software crashes 24+ hours?
+    Expected : NOT FOUND IN DOCUMENT
+    Actual   : NOT FOUND IN DOCUMENT ✅
+
+Q3: Cloud hosting region (US-East or US-West)?
+    Expected : NOT FOUND IN DOCUMENT
+    Actual   : NOT FOUND IN DOCUMENT ✅
+
+Q4: Project manager name?
+    Expected : NOT FOUND IN DOCUMENT
+    Actual   : NOT FOUND IN DOCUMENT ✅
+
+Hallucination Score : 0/4 = ZERO HALLUCINATION
+Result              : PASS ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OVERALL TEST SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Test 1 - Document Verification  : PASS ✅
+Test 2 - Citation Prompt        : PASS ✅
+Test 3 - Hallucination Test     : PASS ✅
+
+Total Score : 3/3 = 100%
+Hallucination Rate : 0%
+Citation Accuracy  : 100%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Created: June 2026 | RAG Document Intelligence Project
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
